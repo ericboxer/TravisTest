@@ -4,6 +4,11 @@ os:
   - osx
   - linux
 
+before_install:
+  - brew update
+  - brew install python
+  - brew install python3
+
 python:
   - 2.7
   - 3.6
