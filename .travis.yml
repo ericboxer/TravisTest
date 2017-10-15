@@ -3,4 +3,4 @@ python:
   - 2.7
   - 3.6
 
-script: test-travisTest.py
+script: python test-travisTest.py
